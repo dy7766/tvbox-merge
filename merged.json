@@ -5021,32 +5021,32 @@
   ],
   "lives": [
     {
-      "name": "范明明超清IPv6",
+      "name": "⭐ 范明明超清IPv6 (央视/卫视)",
       "type": 0,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "playerType": 1
     },
     {
-      "name": "综合直播",
+      "name": "[饭] 综合直播",
       "type": 0,
       "url": "http://193.123.86.190:14888/TV/iptv.php",
       "ua": "bingcha/1.1 (mianfeifenxiang)",
       "playerType": 2
     },
     {
-      "name": "Kimentanm",
+      "name": "[饭] Kimentanm",
       "type": 0,
       "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
-      "name": "范明明（需开启V6网络）",
+      "name": "[饭] 范明明（需开启V6网络）",
       "type": 0,
       "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 2
     },
     {
-      "name": "虎牙一起看",
+      "name": "[饭] 虎牙一起看",
       "type": 0,
       "url": "https://sub.ottiptv.cc/huyayqk.m3u",
       "playerType": 2,
@@ -5054,7 +5054,7 @@
       "ua": "okHttp/Mod-1.5.0.0"
     },
     {
-      "name": "斗鱼一起看",
+      "name": "[饭] 斗鱼一起看",
       "type": 0,
       "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
       "playerType": 2,
@@ -5062,7 +5062,7 @@
       "ua": "okHttp/Mod-1.5.0.0"
     },
     {
-      "name": "YY轮播",
+      "name": "[饭] YY轮播",
       "type": 0,
       "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 2,
@@ -5070,13 +5070,13 @@
       "ua": "okHttp/Mod-1.5.0.0"
     },
     {
-      "name": "superiptv",
+      "name": "[摸] superiptv",
       "type": 0,
       "url": "http://127.0.0.1:5266/iptv.m3u",
       "playerType": 2
     },
     {
-      "name": "初秋语",
+      "name": "[高] 初秋语",
       "type": 0,
       "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/list.txt",
       "playerType": 2,
@@ -5084,7 +5084,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "Ray",
+      "name": "[高] Ray",
       "type": 0,
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
       "playerType": 1,

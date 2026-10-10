@@ -5,7 +5,7 @@ TVBox 订阅源自动合并与缓存降级工具
 - 当网络失效、502 或超时时，自动降级使用上一次成功的缓存
 - 为每个 site 绑定专属 jar，彻底解决多源 spider 爬虫冲突问题
 - 自动转换相对路径 (./lib, ./js, ./jar) 为全球 CDN 绝对路径
-- 站点打上 [饭]、[摸]、[高] 来源前缀，方便在电视上辨识
+- 站点与直播均打上 [饭]、[摸]、[高] 来源前缀，方便在电视上辨识
 """
 
 import os
@@ -36,7 +36,6 @@ SOURCES = [
     {
         "id": "gao",
         "tag": "高",
-        # 高天流云（全球CDN加速直连）
         "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
         "backup_urls": [
             "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
@@ -48,7 +47,7 @@ SOURCES = [
 # 额外置顶的高清精品直播源（如范明明超清 IPv6）
 EXTRA_LIVES = [
     {
-        "name": "范明明超清IPv6",
+        "name": "⭐ 范明明超清IPv6 (央视/卫视)",
         "type": 0,
         "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
         "playerType": 1
@@ -70,7 +69,6 @@ def strip_json_comments(text: str) -> str:
 
 def parse_tvbox_payload(raw_bytes: bytes) -> dict:
     """自动兼容 TVBox 的 3 种格式：普通 JSON、Base64、图片隐写(**base64)"""
-    # 1. 尝试直接作为 UTF-8 JSON 解析
     try:
         text = raw_bytes.decode('utf-8', errors='ignore').lstrip('\ufeff').strip()
         cleaned = strip_json_comments(text)
@@ -80,7 +78,6 @@ def parse_tvbox_payload(raw_bytes: bytes) -> dict:
     except Exception:
         pass
 
-    # 2. 检查是否为图片隐写源 (如 JPEG 中包含 ** 分隔符)
     if b'**' in raw_bytes:
         try:
             b64_part = raw_bytes.split(b'**', 1)[1].strip()
@@ -92,7 +89,6 @@ def parse_tvbox_payload(raw_bytes: bytes) -> dict:
         except Exception:
             pass
 
-    # 3. 检查是否为纯 Base64
     try:
         decoded = base64.b64decode(raw_bytes.strip()).decode('utf-8', errors='ignore').lstrip('\ufeff').strip()
         cleaned = strip_json_comments(decoded)
@@ -198,7 +194,6 @@ def main():
 
         tag = cfg["tag"]
         source_spider = data.get("spider", "")
-        # 处理 spider 的相对路径
         if source_spider and base_url and not source_spider.startswith(("http://", "https://")):
             source_spider = urllib.parse.urljoin(base_url, source_spider)
 
@@ -219,17 +214,14 @@ def main():
             orig_key = str(site_item.get("key", ""))
             orig_name = str(site_item.get("name", "未命名"))
 
-            # 关键技术点：为每个 site 绑定专属 jar，彻底防止多源 spider 爬虫互相冲突
             if not site_item.get("jar") and source_spider:
                 site_item["jar"] = source_spider
 
-            # 修正相对路径 (api 与 ext)
             if site_item.get("api") and base_url:
                 site_item["api"] = resolve_path(site_item["api"], base_url)
             if site_item.get("ext") and base_url:
                 site_item["ext"] = resolve_ext(site_item["ext"], base_url)
 
-            # 站点添加来源标识（如 [饭]、[摸]、[高]）
             site_item["name"] = f"[{tag}] {orig_name}"
             unique_key = f"{cfg['id']}_{orig_key}"
             site_item["key"] = unique_key
@@ -246,15 +238,18 @@ def main():
                     seen_parse_names.add(p_name)
                     merged_parses.append(p)
 
-        # 合并直播 lives
+        # 合并直播 lives（给直播也打上 [饭]、[摸]、[高] 标识）
         for l in data.get("lives", []):
             if isinstance(l, dict):
-                l_url = l.get("url", "")
+                l_item = dict(l)
+                l_url = l_item.get("url", "")
                 if l_url and l_url not in seen_live_urls:
                     if base_url and not l_url.startswith(("http://", "https://")):
-                        l["url"] = urllib.parse.urljoin(base_url, l_url)
+                        l_item["url"] = urllib.parse.urljoin(base_url, l_url)
+                    orig_lname = l_item.get("name", "直播")
+                    l_item["name"] = f"[{tag}] {orig_lname}"
                     seen_live_urls.add(l_url)
-                    merged_lives.append(l)
+                    merged_lives.append(l_item)
 
         # 合并规则 rules
         for r in data.get("rules", []):
@@ -273,7 +268,7 @@ def main():
         json.dump(base_config, f, ensure_ascii=False, indent=2)
 
     print("\n" + "="*40)
-    print("TVBox 站点全量合并成功!")
+    print("TVBox 站点与直播全量合并成功!")
     print(f"输出文件: {OUTPUT_FILE}")
     print(f"合并后站点总数: {len(merged_sites)} 个")
     print(f"合并后直播总数: {len(merged_lives)} 个")
