@@ -4,8 +4,7 @@ TVBox 订阅源自动合并与缓存降级工具
 - 支持普通 JSON、Base64 以及图片隐写(图床源)自动解析
 - 当网络失效、502 或超时时，自动降级使用上一次成功的缓存
 - 为每个 site 绑定专属 jar，彻底解决多源 spider 爬虫冲突问题
-- 自动转换相对路径 (./lib, ./js, ./jar) 为全球 CDN 绝对路径
-- 站点与直播均打上 [饭]、[摸]、[高] 来源前缀，方便在电视上辨识
+- 站点与直播均打上 [饭]、[摸] 来源前缀，方便在电视上辨识
 """
 
 import os
@@ -32,19 +31,10 @@ SOURCES = [
         "tag": "摸",
         "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top/",  # http://我不是.摸鱼儿.top
         "backup_urls": []
-    },
-    {
-        "id": "gao",
-        "tag": "高",
-        "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
-        "backup_urls": [
-            "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-            "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
-        ]
     }
 ]
 
-# 额外置顶的高清精品直播源（如范明明超清 IPv6）
+# 额外置顶的高清精品直播源（范明明超清 IPv6 央视/卫视）
 EXTRA_LIVES = [
     {
         "name": "⭐ 范明明超清IPv6 (央视/卫视)",
@@ -144,34 +134,6 @@ def get_source_data(source_cfg: dict) -> tuple:
     print(f"[{source_cfg['id']}] [WARN] 该源无可用最新数据且无历史缓存，已跳过")
     return None, ""
 
-def resolve_path(val, base_url: str):
-    """将相对路径转为基于源 URL 的绝对路径"""
-    if not val or not base_url or not isinstance(val, str):
-        return val
-    if val.startswith(("http://", "https://", "csp_")):
-        return val
-    if val.startswith(("./", "/")):
-        return urllib.parse.urljoin(base_url, val)
-    return val
-
-def resolve_ext(ext, base_url: str):
-    """转换 ext 中的相对路径"""
-    if isinstance(ext, str):
-        if "$$$" in ext:
-            parts = ext.split("$$$")
-            parts[0] = resolve_path(parts[0], base_url)
-            return "$$$".join(parts)
-        return resolve_path(ext, base_url)
-    elif isinstance(ext, dict):
-        new_dict = {}
-        for k, v in ext.items():
-            if isinstance(v, str):
-                new_dict[k] = resolve_path(v, base_url)
-            else:
-                new_dict[k] = v
-        return new_dict
-    return ext
-
 def main():
     merged_sites = []
     seen_site_keys = set()
@@ -217,10 +179,8 @@ def main():
             if not site_item.get("jar") and source_spider:
                 site_item["jar"] = source_spider
 
-            if site_item.get("api") and base_url:
-                site_item["api"] = resolve_path(site_item["api"], base_url)
-            if site_item.get("ext") and base_url:
-                site_item["ext"] = resolve_ext(site_item["ext"], base_url)
+            if site_item.get("api") and base_url and not str(site_item["api"]).startswith(("http://", "https://", "csp_")):
+                site_item["api"] = urllib.parse.urljoin(base_url, site_item["api"])
 
             site_item["name"] = f"[{tag}] {orig_name}"
             unique_key = f"{cfg['id']}_{orig_key}"
@@ -238,7 +198,7 @@ def main():
                     seen_parse_names.add(p_name)
                     merged_parses.append(p)
 
-        # 合并直播 lives（给直播也打上 [饭]、[摸]、[高] 标识）
+        # 合并直播 lives
         for l in data.get("lives", []):
             if isinstance(l, dict):
                 l_item = dict(l)
