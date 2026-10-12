@@ -6,12 +6,27 @@
 
 ## 📺 方案一：主打单仓（推荐！饭太硬+摸鱼儿 物理合并）
 
-在 TVBox 中填入此地址，开箱即用，包含 145 个精选去重站点与 8 组超清直播：
+在 TVBox 中填入以下任一高速地址（国内直接秒开）：
 
+### 🚀 推荐高速地址 1（国内专用高可用镜像，推荐首选）
 ```text
-https://cdn.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
+https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/merged.json
 ```
-*(备用地址：`https://raw.gitmirror.com/dy7766/tvbox-merge/main/merged.json`)*
+
+### 🚀 推荐高速地址 2（GitHub Pages 官方直接托管）
+```text
+https://dy7766.github.io/tvbox-merge/merged.json
+```
+
+### 备用高速地址 3（Cloudflare 全球边缘节点）
+```text
+https://testingcf.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
+```
+
+### 备用高速地址 4（Fastly 节点）
+```text
+https://fastly.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
+```
 
 ---
 
@@ -22,8 +37,9 @@ https://cdn.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
 - ☁️ **高天流云（原版独立线）**
 
 ```text
-https://cdn.jsdelivr.net/gh/dy7766/tvbox-merge@main/index.json
+https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/index.json
 ```
+*(备用：`https://dy7766.github.io/tvbox-merge/index.json`)*
 
 ---
 
