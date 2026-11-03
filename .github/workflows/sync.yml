@@ -24,6 +24,15 @@ jobs:
         run: |
           python merge.py
 
+      - name: 同步上传至七牛云 (若配置了密钥)
+        env:
+          QINIU_AK: ${{ secrets.QINIU_AK }}
+          QINIU_SK: ${{ secrets.QINIU_SK }}
+          QINIU_BUCKET: ${{ secrets.QINIU_BUCKET }}
+        run: |
+          pip install qiniu
+          python upload_qiniu.py
+
       - name: 持久化缓存与最终配置
         run: |
           git config --global user.name "github-actions[bot]"
