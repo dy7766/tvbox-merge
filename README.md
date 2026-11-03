@@ -8,9 +8,9 @@
 
 在 TVBox 中填入以下任一高速地址（国内直接秒开）：
 
-### ⚡ 推荐首选（七牛云 Kodo 国内 CDN 极速直连，永不卡顿）
+### ⚡ 推荐首选（自有备案域名 + 七牛云 Kodo CDN 极速直连，永不卡顿）
 ```text
-http://tnwnz4pli.hb-bkt.clouddn.com/merged.json
+http://tvm.tenghen.com/merged.json
 ```
 
 ### 🚀 备用高速地址 1（国内专用高可用镜像）
@@ -42,7 +42,7 @@ https://fastly.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
 - ☁️ **高天流云（原版独立线）**
 
 ```text
-http://tnwnz4pli.hb-bkt.clouddn.com/index.json
+http://tvm.tenghen.com/index.json
 ```
 *(备用：`https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/index.json`)*
 
