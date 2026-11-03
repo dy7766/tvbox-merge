@@ -8,12 +8,17 @@
 
 在 TVBox 中填入以下任一高速地址（国内直接秒开）：
 
-### 🚀 推荐高速地址 1（国内专用高可用镜像，推荐首选）
+### ⚡ 推荐首选（七牛云 Kodo 国内 CDN 极速直连，永不卡顿）
+```text
+http://tnwnz4pli.hb-bkt.clouddn.com/merged.json
+```
+
+### 🚀 备用高速地址 1（国内专用高可用镜像）
 ```text
 https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/merged.json
 ```
 
-### 🚀 推荐高速地址 2（GitHub Pages 官方直接托管）
+### 🚀 备用高速地址 2（GitHub Pages 官方直接托管）
 ```text
 https://dy7766.github.io/tvbox-merge/merged.json
 ```
@@ -37,9 +42,9 @@ https://fastly.jsdelivr.net/gh/dy7766/tvbox-merge@main/merged.json
 - ☁️ **高天流云（原版独立线）**
 
 ```text
-https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/index.json
+http://tnwnz4pli.hb-bkt.clouddn.com/index.json
 ```
-*(备用：`https://dy7766.github.io/tvbox-merge/index.json`)*
+*(备用：`https://jsd.cdn.zzko.cn/gh/dy7766/tvbox-merge@main/index.json`)*
 
 ---
 
