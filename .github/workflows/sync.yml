@@ -20,6 +20,10 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: 安装依赖
+        run: |
+          pip install requests qiniu
+
       - name: 执行合并脚本
         run: |
           python merge.py
@@ -30,7 +34,6 @@ jobs:
           QINIU_SK: ${{ secrets.QINIU_SK }}
           QINIU_BUCKET: ${{ secrets.QINIU_BUCKET }}
         run: |
-          pip install qiniu
           python upload_qiniu.py
 
       - name: 持久化缓存与最终配置

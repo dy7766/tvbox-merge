@@ -2,7 +2,7 @@
 """
 七牛云 Kodo 自动上传与 CDN 刷新脚本
 - 读取环境变量 QINIU_AK, QINIU_SK, QINIU_BUCKET
-- 自动将 merged.json 与 index.json 同步到七牛云存储桶根目录
+- 自动将 merged.json、index.json 以及 cache/ 下的 spider.jar 同步到七牛云
 - 自动调用 CDN 刷新接口，确保电视端立刻获取最新文件
 """
 
@@ -25,32 +25,44 @@ def upload_to_qiniu():
         sys.exit(1)
 
     q = Auth(ak, sk)
-    files_to_upload = ["merged.json", "index.json"]
 
-    for file_name in files_to_upload:
-        if not os.path.exists(file_name):
-            print(f"[Qiniu] 文件未找到: {file_name}，跳过")
+    # 待上传列表: (本地路径, 七牛存储 key)
+    items_to_upload = [
+        ("merged.json", "merged.json"),
+        ("index.json", "index.json")
+    ]
+
+    # 添加专属 spider.jar 爬虫包
+    for jar_name in ["fty_spider.jar", "my_spider.jar"]:
+        local_path = os.path.join("cache", jar_name)
+        if os.path.exists(local_path):
+            items_to_upload.append((local_path, f"jar/{jar_name}"))
+
+    uploaded_keys = []
+    for local_path, key in items_to_upload:
+        if not os.path.exists(local_path):
+            print(f"[Qiniu] 文件未找到: {local_path}，跳过")
             continue
 
-        key = file_name
         token = q.upload_token(bucket_name, key, 3600)
-        
-        print(f"[Qiniu] 正在上传 {file_name} 到存储桶 [{bucket_name}] ...")
-        ret, info = put_file(token, key, file_name)
+        print(f"[Qiniu] 正在上传 {local_path} -> [{bucket_name}]:{key} ...")
+        ret, info = put_file(token, key, local_path)
 
         if info.status_code == 200:
-            print(f"[Qiniu] ✓ {file_name} 上传成功！hash: {ret.get('hash')}")
+            print(f"[Qiniu] [OK] {key} 上传成功！hash: {ret.get('hash')}")
+            uploaded_keys.append(key)
         else:
-            print(f"[Qiniu] ✗ {file_name} 上传失败: {info}")
+            print(f"[Qiniu] [ERR] {key} 上传失败: {info}")
 
     # 自动刷新 CDN 缓存，避免客户端拿到旧版
-    try:
-        cdn = CdnManager(q)
-        refresh_urls = [f"http://tvm.tenghen.com/{f}" for f in files_to_upload]
-        ret, info = cdn.refresh_urls(refresh_urls)
-        print(f"[Qiniu] ✓ CDN 缓存刷新请求已提交 (Code: {ret.get('code')})")
-    except Exception as e:
-        print(f"[Qiniu] CDN 缓存刷新异常 (非致命): {e}")
+    if uploaded_keys:
+        try:
+            cdn = CdnManager(q)
+            refresh_urls = [f"http://tvm.tenghen.com/{k}" for k in uploaded_keys]
+            ret, info = cdn.refresh_urls(refresh_urls)
+            print(f"[Qiniu] [OK] CDN 缓存刷新请求已提交 (Code: {ret.get('code')})")
+        except Exception as e:
+            print(f"[Qiniu] CDN 缓存刷新异常 (非致命): {e}")
 
 if __name__ == "__main__":
     upload_to_qiniu()

@@ -11,6 +11,7 @@ import os
 import re
 import json
 import base64
+import hashlib
 import urllib.request
 import urllib.parse
 
@@ -100,6 +101,59 @@ def fetch_single_url(url: str, timeout: int = 10) -> dict:
             return parse_tvbox_payload(resp.read())
     raise ValueError(f"HTTP 状态异常: {resp.status}")
 
+MY_DOMAIN = "http://tvm.tenghen.com"
+
+def download_and_cache_jar(source_id: str, raw_spider_str: str) -> str:
+    """
+    下载上游 spider.jar 到本地 cache 目录，计算真实 MD5，
+    并返回私有化后的七牛云直链地址：http://tvm.tenghen.com/jar/{source_id}_spider.jar;md5;{hash}
+    """
+    if not raw_spider_str:
+        return ""
+    
+    clean_url = raw_spider_str.split(";md5;")[0].strip()
+    cache_jar_path = os.path.join(CACHE_DIR, f"{source_id}_spider.jar")
+
+    jar_bytes = None
+    try:
+        print(f"[{source_id}] 正在下载专属 spider 包: {clean_url}")
+        try:
+            import requests
+            session = requests.Session()
+            session.trust_env = False
+            resp = session.get(clean_url, headers={"User-Agent": "okhttp/3.15.0"}, timeout=20)
+            if resp.status_code == 200:
+                jar_bytes = resp.content
+        except ImportError:
+            req = urllib.request.Request(clean_url, headers={"User-Agent": "okhttp/3.15.0"})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                if resp.status == 200:
+                    jar_bytes = resp.read()
+
+        if jar_bytes:
+            with open(cache_jar_path, "wb") as f:
+                f.write(jar_bytes)
+            print(f"[{source_id}] -> spider 包下载并缓存成功 (大小: {len(jar_bytes)} 字节)")
+    except Exception as e:
+        print(f"[{source_id}] -> 下载 spider 异常 ({clean_url}): {e}")
+
+    if not jar_bytes and os.path.exists(cache_jar_path):
+        print(f"[{source_id}] [FALLBACK] 使用历史已缓存的 spider 包: {cache_jar_path}")
+        try:
+            with open(cache_jar_path, "rb") as f:
+                jar_bytes = f.read()
+        except Exception as e:
+            print(f"[{source_id}] 读取历史 jar 失败: {e}")
+
+    if jar_bytes:
+        computed_md5 = hashlib.md5(jar_bytes).hexdigest()
+        private_url = f"{MY_DOMAIN}/jar/{source_id}_spider.jar;md5;{computed_md5}"
+        print(f"[{source_id}] -> 成功绑定私有化 Jar: {private_url}")
+        return private_url
+
+    print(f"[{source_id}] [WARN] 无法获取本地 jar，回退使用原始地址")
+    return raw_spider_str
+
 def get_source_data(source_cfg: dict) -> tuple:
     os.makedirs(CACHE_DIR, exist_ok=True)
     cache_path = os.path.join(CACHE_DIR, f"{source_cfg['id']}.json")
@@ -159,9 +213,12 @@ def main():
         if source_spider and base_url and not source_spider.startswith(("http://", "https://")):
             source_spider = urllib.parse.urljoin(base_url, source_spider)
 
+        # 下载、缓存并私有化 jar 地址
+        localized_spider = download_and_cache_jar(cfg["id"], source_spider)
+
         if not base_config:
             base_config = {
-                "spider": source_spider,
+                "spider": localized_spider,
                 "wallpaper": data.get("wallpaper", ""),
                 "logo": data.get("logo", ""),
                 "danmaku": data.get("danmaku", ""),
@@ -176,8 +233,7 @@ def main():
             orig_key = str(site_item.get("key", ""))
             orig_name = str(site_item.get("name", "未命名"))
 
-            if not site_item.get("jar") and source_spider:
-                site_item["jar"] = source_spider
+            site_item["jar"] = localized_spider
 
             if site_item.get("api") and base_url and not str(site_item["api"]).startswith(("http://", "https://", "csp_")):
                 site_item["api"] = urllib.parse.urljoin(base_url, site_item["api"])
