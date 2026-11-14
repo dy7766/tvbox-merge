@@ -1,5 +1,5 @@
 {
-  "spider": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56",
+  "spider": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "danmaku": "",
@@ -7,14 +7,14 @@
   "sites": [
     {
       "key": "fty_点我切源",
-      "name": "[饭] 豆豆┃片单 <兼容安卓4>",
+      "name": "[饭] 豆豆┃片单 <Fix Everything>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_MDrive",
@@ -30,7 +30,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_玩偶",
@@ -44,7 +44,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_YGP",
@@ -54,290 +54,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_MTV1",
-      "name": "[饭] 🎙️易听┃音乐",
-      "type": 3,
-      "api": "csp_MusicGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_seed",
-      "name": "[饭] 💡聚剧┃四盘",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_光影",
-      "name": "[饭] 🌞光影┃不卡",
-      "type": 3,
-      "api": "csp_T4Guard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_厂长",
-      "name": "[饭] 📔厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCzGuard",
-      "timeout": 10,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_海绵",
-      "name": "[饭] 🐬海绵┃不卡",
-      "type": 3,
-      "api": "csp_HmysGuard",
-      "timeout": 10,
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_立播",
-      "name": "[饭] 🌟立播┃不卡",
-      "type": 3,
-      "api": "csp_LibvioGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "siteUrl": "https://www.libvio.pw/"
-      },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_瓜子",
-      "name": "[饭] 👀瓜子┃不卡",
-      "type": 3,
-      "api": "csp_AppgzGuard",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_比特",
-      "name": "[饭] 🍄比特┃不卡",
-      "type": 3,
-      "api": "csp_BttwooGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_糯米",
-      "name": "[饭] 🍓糯米┃秒播",
-      "type": 3,
-      "api": "csp_NmyswvGuard",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_文采",
-      "name": "[饭] 💮文采┃秒播",
-      "type": 3,
-      "api": "csp_JpysGuard",
-      "timeout": 10,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_奶酪",
-      "name": "[饭] 🧀奶酪┃秒播",
-      "type": 3,
-      "api": "csp_T4Guard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_热播",
-      "name": "[饭] 📺热播┃多线",
-      "type": 3,
-      "api": "csp_AppTTGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_风云",
-      "name": "[饭] ☁️风云┃多线",
-      "type": 3,
-      "api": "csp_FyGuard",
-      "ext": {
-        "type": "video",
-        "name": "Fy"
-      },
-      "quickSearch": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_视界",
-      "name": "[饭] 🌸茉莉┃多线",
-      "type": 3,
-      "api": "csp_App99Guard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_剧圈",
-      "name": "[饭] 🐻剧圈┃多线",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_荐片",
-      "name": "[饭] 🥝荐片┃多线",
-      "type": 3,
-      "api": "csp_JPJGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_奥特",
-      "name": "[饭] 🏝奥特┃多线",
-      "type": 3,
-      "api": "csp_AueteGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_新6V",
-      "name": "[饭] 🧲新6V┃磁力",
-      "type": 3,
-      "api": "csp_SixVGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_AiDj",
-      "name": "[饭] ❤️AI剧┃弹幕",
-      "type": 3,
-      "api": "csp_AiDjGuard",
-      "ext": {
-        "type": "video",
-        "name": "短剧",
-        "danMu": false
-      },
-      "indexs": 0,
-      "quickSearch": 1,
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_Dm84",
-      "name": "[饭] 🚌巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84Guard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_看球",
-      "name": "[饭] ⚽八八┃看球",
-      "type": 3,
-      "api": "csp_KanqiuGuard",
-      "timeout": 10,
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_多多",
-      "name": "[饭] 🏀多多┃回放",
-      "type": 3,
-      "api": "csp_DoubaoGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
-    },
-    {
-      "key": "fty_吃瓜",
-      "name": "[饭] 🏐吃瓜┃看球",
-      "type": 3,
-      "api": "csp_LiveGzGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_alllive",
@@ -354,7 +71,303 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_MTV1",
+      "name": "[饭] 🎙️易听┃音乐",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "playerType": 2,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_爱刷",
+      "name": "[饭] ♻️爱刷┃短视",
+      "type": 3,
+      "api": "csp_SsspGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {},
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_seed",
+      "name": "[饭] 💡聚剧┃四盘",
+      "type": 3,
+      "api": "csp_SeedhubGuard",
+      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "indexs": 0,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_粤迷",
+      "name": "[饭] 🦊粤迷┃港剧",
+      "type": 3,
+      "api": "csp_MaiDuiDuiGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_光影",
+      "name": "[饭] 🌞光影┃不卡",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_厂长",
+      "name": "[饭] 📔厂长┃不卡",
+      "type": 3,
+      "api": "csp_NewCzGuard",
+      "timeout": 10,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_海绵",
+      "name": "[饭] 🐬海绵┃不卡",
+      "type": 3,
+      "api": "csp_HmysGuard",
+      "timeout": 10,
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_立播",
+      "name": "[饭] 🌟立播┃不卡",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "siteUrl": "https://www.libvio.pw/"
+      },
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_瓜子",
+      "name": "[饭] 👀瓜子┃不卡",
+      "type": 3,
+      "api": "csp_AppgzGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_比特",
+      "name": "[饭] 🍄比特┃不卡",
+      "type": 3,
+      "api": "csp_BttwooGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_糯米",
+      "name": "[饭] 🍓糯米┃秒播",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_文采",
+      "name": "[饭] 💮文采┃秒播",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "timeout": 10,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_奶酪",
+      "name": "[饭] 🧀奶酪┃秒播",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_剧迷",
+      "name": "[饭] 🍊橘猫┃多线",
+      "type": 3,
+      "api": "csp_JumiTvGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_热播",
+      "name": "[饭] 📺热播┃多线",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "uqGL1bNENExT7/hGxpSE5qU=",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_风云",
+      "name": "[饭] ☁️风云┃多线",
+      "type": 3,
+      "api": "csp_FyGuard",
+      "ext": {
+        "type": "video",
+        "name": "Fy"
+      },
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_荐片",
+      "name": "[饭] 🥝荐片┃多线",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_奥特",
+      "name": "[饭] 🏝奥特┃多线",
+      "type": 3,
+      "api": "csp_AueteGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_新6V",
+      "name": "[饭] 🧲新6V┃磁力",
+      "type": 3,
+      "api": "csp_SixVGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.xb6v.com/",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_AiDj",
+      "name": "[饭] ❤️AI剧┃弹幕",
+      "type": 3,
+      "api": "csp_AiDjGuard",
+      "ext": {
+        "type": "video",
+        "name": "短剧",
+        "danMu": false
+      },
+      "indexs": 0,
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_Dm84",
+      "name": "[饭] 🚌巴士┃动漫",
+      "type": 3,
+      "api": "csp_Dm84Guard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_看球",
+      "name": "[饭] ⚽八八┃看球",
+      "type": 3,
+      "api": "csp_KanqiuGuard",
+      "timeout": 10,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_多多",
+      "name": "[饭] 🏀多多┃回放",
+      "type": 3,
+      "api": "csp_DoubaoGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "key": "fty_吃瓜",
+      "name": "[饭] 🏐吃瓜┃看球",
+      "type": 3,
+      "api": "csp_LiveGzGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_MTV",
@@ -371,7 +384,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_有声小说",
@@ -385,7 +398,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_Aid",
@@ -399,7 +412,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_虎牙js",
@@ -416,7 +429,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_斗鱼js",
@@ -433,7 +446,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_ZPan",
@@ -450,7 +463,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_JPan",
@@ -467,7 +480,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_YpanSo",
@@ -480,7 +493,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_BpanSo",
@@ -493,7 +506,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_抠搜",
@@ -506,7 +519,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_UC",
@@ -519,7 +532,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_Bili",
@@ -536,7 +549,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_Biliych",
@@ -553,7 +566,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_dr_兔小贝",
@@ -568,7 +581,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_少儿教育",
@@ -585,7 +598,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_小学课堂",
@@ -602,7 +615,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_初中课堂",
@@ -619,7 +632,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_高中教育",
@@ -636,7 +649,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_push_agent",
@@ -648,7 +661,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "fty_cc",
@@ -658,7 +671,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;164fa61b160f3119f4f21489b9dfaf56"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;76e9565340e6d28c363b914ca2d506ed"
     },
     {
       "key": "my_Douban",
@@ -2066,6 +2079,14 @@
       "name": "[饭] 斗鱼一起看",
       "type": 0,
       "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "[饭] YY轮播",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
