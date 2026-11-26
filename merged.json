@@ -1,5 +1,5 @@
 {
-  "spider": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49",
+  "spider": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "danmaku": "",
@@ -7,14 +7,14 @@
   "sites": [
     {
       "key": "fty_点我切源",
-      "name": "[饭] 豆豆┃片单 <修复扫码BUG>",
+      "name": "[饭] 片单┃ <修复AI剧>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_MDrive",
@@ -30,7 +30,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_玩偶",
@@ -44,7 +44,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_YGP",
@@ -54,7 +54,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_alllive",
@@ -71,7 +71,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_MTV1",
@@ -86,7 +86,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_爱刷",
@@ -101,7 +101,7 @@
         "ratio": 1.597
       },
       "ext": {},
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_seed",
@@ -113,7 +113,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "indexs": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_粤迷",
@@ -124,7 +124,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_韩剧",
@@ -135,7 +135,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_光影",
@@ -145,8 +145,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "ext": "rfOIzPkSUkANv6AT2prC8aD6+WjK3tPozSUvL572CklJZV9L6ysy+LVxZfJR1dM5o3ePLoIPjnos/W4yTqlgUtqU/aeuWHa5fKzelf2sVzGilRkvdFcCpBwt4dB24J1GEdZi4DsMHkz6Ge+zjX/4lHrfVcSOjIFNIHP1TGLmwiCpZd34DfAtn2npr5u6BiYW36CCIID+khfgtA1QQQjazWJBV3hjZT57WbmPs4WoqoDf3MGfd+4AaVzVjPnSLAOD2edXSp3gLgdURjXO5rPlrsRhysXbhlAyQA15/MbFhVwQeGBiKp/Om1PLYiw01LYiplgqx1mxcnCu3SSrfadD2cKgPdJhQi6Ns55eNIeZoiEWrnfgxcAnnhd5nWDZ67WBbRK1YBs1pV05B3ICXao4njVgOB+AbpZJjzs+4PgYLocnQhq0w5RxRFDq1REMpMgSdgE8wYzUtzPO0HcKhCUb01/DQiU9Iy/kZor8+cABH603aMYHOqNXQFJ4R4LFZ8IbYaWLmqhvUm8iQV0ZLHj4NqF+uQnjy89nsQQT2q8FzQG9bod3dmQXCuRaHYCS9ghnVTWCd8TE2CIhY02jyXbE3APr+YN9l/ey1FgdYR7G4c9ZlkHOpEtorwSksB/tkX1+AA==",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_厂长",
@@ -158,7 +158,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_立播",
@@ -173,7 +173,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.pw/"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_瓜子",
@@ -184,7 +184,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_比特",
@@ -195,7 +195,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_花生",
@@ -209,7 +209,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_糯米",
@@ -220,7 +220,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_文采",
@@ -232,7 +232,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_奶酪",
@@ -242,8 +242,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4jq3i8iepe3AAlFJlcJ8nEyo7U0Zv5Ly99uvDeRbsAQwngm4DhwCew4GZ2NpO2FWja5GbiLw/2+VyOxmwVkfRMWv532AlCkEM0DUsYlqgFBirI7micJVqtVVd5RVO+OjoFt49RYjdpcwCGzZNf2zleAXOBerYWUBBYiHAcv4i9IkhbqtQRBgq93D8T/VUpyZg15mh4icjAzq6HJ3fKftkmNq95YguHZLzKbGEDahyxvIgNARifYJxRobH3iyvXchGcLgar0MU56i0oTeFRc6ThjWvJdYRkG14ULZ/+nBcQncXy23jGsvADOGlYoPtpPQAOccjnT9Q0UrQssrFfhyMAynhd5nlPX67OibRK1YBs1pV05B3ICXao4njVgOB+AbpZJjwAw7tkjLocnQhq0w5RxREH/1j8YpssxtJO1ADlPtR7A3GILhxMcEc1KgJy+LBzmZL7G+vYG3T++qkSKO6V2QFdgRLTCpSHJ",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4jq3i8iepe3AAlFJlcJ8nEyo7U0Zv5Ly99uvDeRbsAQwngm4DhwCew4GZ2NpO2FWja5GbiLw/2+VyOxmwVkfRMWv4r7F0yFFcgHZdBu8XhZS17qCOz4hFXmThTNJJ6r6izqIDiy35MRVt1r5SFVFYMtnUTQrp+ZBiYW36CCI5fykR7RtA1QQQjazGJoVUFvZT57WbmPsbmEq4PL3sG/d+4AaXHujcfaLgOj2edXRYrRLyZgRDXu5rPlrch5yOPchlAyQA15/MbFhVwQeGBiKp/Ol0PSYQ0L1LYiplgqx0aqcFWB3SSrfadD1ta+PdJhQi6Ns55eNKyCrQIerEX3CWe/XK76nWvQ56ODrocvbicwZNeFBEManAuunz1sNQ2DrzHETbmz4uIhIKURTSi2DzPpheVx1xMUpM0KdwYvDStMdYpN338GiDAa0ljQjoKl4a1pZL7G+94WHpgTaMYHOYBZQWdjR4LFZ8IbYaWLmbViXGQ0Q1467upx9DPMuiXhyvxJcKCd25sXD7kQb7RxdFMuy0DUzXHYRuD9",
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_剧迷",
@@ -254,7 +254,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_热播",
@@ -266,7 +266,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_风云",
@@ -280,7 +280,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_荐片",
@@ -291,7 +291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_奥特",
@@ -302,7 +302,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_新6V",
@@ -314,7 +314,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_AiDj",
@@ -330,7 +330,7 @@
       "quickSearch": 1,
       "searchable": 1,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_Dm84",
@@ -341,7 +341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_看球",
@@ -354,7 +354,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_多多",
@@ -367,7 +367,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_吃瓜",
@@ -380,7 +380,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_MTV",
@@ -397,7 +397,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_有声小说",
@@ -411,7 +411,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_Aid",
@@ -425,7 +425,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_虎牙js",
@@ -442,7 +442,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_斗鱼js",
@@ -459,7 +459,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_ZPan",
@@ -476,7 +476,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_JPan",
@@ -493,7 +493,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_YpanSo",
@@ -506,7 +506,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_BpanSo",
@@ -519,7 +519,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_抠搜",
@@ -532,7 +532,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_UC",
@@ -545,7 +545,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_Bili",
@@ -562,7 +562,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_Biliych",
@@ -579,7 +579,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_dr_兔小贝",
@@ -594,7 +594,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_少儿教育",
@@ -611,7 +611,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_小学课堂",
@@ -628,7 +628,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_初中课堂",
@@ -645,7 +645,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_高中教育",
@@ -662,7 +662,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_push_agent",
@@ -674,7 +674,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "fty_cc",
@@ -684,7 +684,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;ca298c77d2c40a8268c505d7b3194e49"
+      "jar": "http://tvm.tenghen.com/jar/fty_spider.jar;md5;5302302a73a9e27cfaa65f3873b727ab"
     },
     {
       "key": "my_Douban",
